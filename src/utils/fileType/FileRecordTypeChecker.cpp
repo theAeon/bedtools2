@@ -1,6 +1,7 @@
 
 #include "FileRecordTypeChecker.h"
 #include "api/BamReader.h"
+#include "bedFile.h"
 #include "ParseTools.h"
 
 FileRecordTypeChecker::FileRecordTypeChecker()

@@ -21,7 +21,7 @@
 using namespace std;
 
 bool isNumeric(const string &str);
-bool isInteger(const string &str);
+//bool isInteger(const string &str);
 
 void trimNewlines(string& str);
 

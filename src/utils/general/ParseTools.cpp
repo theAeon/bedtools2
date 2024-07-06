@@ -22,17 +22,17 @@ bool isNumeric(const string &str) {
 }
 
 //As above, but does not allow decimal points
-bool isInteger(const string &str) {
-	bool hasDigits = false;
-	for (int i=0; i < (int)str.size(); i++) {
-		char currChar = str[i];
-		if (!(isdigit(currChar) || currChar == '-' || currChar == '+' || currChar == 'e' || currChar == 'E')) {
-			return false;
-		}
-		hasDigits |= isdigit(currChar);
-	}
-	return hasDigits;
-}
+// bool isInteger(const string &str) {
+	// bool hasDigits = false;
+	// for (int i=0; i < (int)str.size(); i++) {
+		// char currChar = str[i];
+		// if (!(isdigit(currChar) || currChar == '-' || currChar == '+' || currChar == 'e' || currChar == 'E')) {
+			// return false;
+		// }
+		// hasDigits |= isdigit(currChar);
+	// }
+	// return hasDigits;
+// }
 
 void trimNewlines(string& str) {
 	size_t len = str.length();
